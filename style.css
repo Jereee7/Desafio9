@@ -1,0 +1,170 @@
+
+    .bebas-neue-regular {
+        font-family: "Bebas Neue", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    
+    header {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin: -1%;
+    }
+    
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    header h1 {
+        font-size: 50px;
+        color: white;
+        font-family: "Bebas Neue", system-ui;
+        padding: 5px;
+    
+    }
+    nav{
+        margin-left: auto;
+    }
+    nav a {
+        color: white;
+        font-size: 20px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .slide{
+        background-color: rgb(172, 176, 173);
+        margin-left: 15px;
+    }
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto; 
+        width: 500px;
+        height: 500px;
+        background-color: grey;
+    }
+    main{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+    }
+    .parent {
+        display: flex; 
+        flex-wrap: wrap;
+        align-content: center; 
+       text-align: center;
+       justify-content: center;
+       
+    }
+        .parent div {
+            background-color: rgb(236, 237, 239);
+            width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid gray;
+            margin: 50px;
+            
+        }
+        
+        .parent div img {
+            width: 70%;
+            height: auto;
+            
+        }
+        .parent div h3 {
+            margin-top: 10px;
+            font-size: 18px; 
+            color: black; 
+            text-align: center;
+        }
+        .parent div h5{
+            font-size: 10px;
+        }
+        .parent div a{
+            font-size: 20px;
+            color: blue;
+            text-decoration: none;
+        }
+    
+    
+    footer {
+        margin: 0;
+        padding: -50%; 
+        text-align: center;
+        background-color: black;
+        color: white;
+        width: 100%;
+        
+    }
+    footer a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+
+    @media (min-width: 769px) and (max-width: 1024px) {
+   
+    .parent div {
+        width:400px;
+        height: 500px;
+
+    }
+  
+    .parent {
+        display: flex; 
+        flex-direction: column;  
+        align-items: center; 
+        justify-content: flex-start; 
+    }
+    footer {
+        width: 100%;
+        padding: 20px
+    }
+}
+@media (max-width:768px){
+    nav{
+        margin-left: auto;
+    }
+    nav a {
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        text-decoration: none;
+    }
+    .slider{
+        width: 200px;
+        height: 300px;
+    }
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        margin: 20px auto; 
+        width: 300px;
+        height: 400px;
+        background-color: grey;
+    }
+    .parent div {
+        width:200px;
+        height: 300px;
+
+    }
+  
+    .parent {
+        display: flex; 
+        flex-direction: column;  
+        align-items: center; 
+        justify-content: flex-start; 
+    }
+    footer {
+        width: 100%;
+        padding: 20px
+    }
+}
+

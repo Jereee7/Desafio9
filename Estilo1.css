@@ -1,0 +1,59 @@
+section img{
+    width: 80%; 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top:1%
+}
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: -1%;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+}
+
+header h1 {
+    font-size: 50px;
+    color: white;
+    font-family: "Bebas Neue", system-ui;
+    padding: 5px;
+
+}
+nav{
+    margin-left: auto;
+}
+nav a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;}
+    footer {
+        width: 100%;
+        padding: 20px; 
+        text-align: center;
+        background-color: black;
+        color: white;
+        margin-left:-2.5%;
+        position: absolute;
+    }
+    h6{
+        font-size: 15px;
+    }
+    footer a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
